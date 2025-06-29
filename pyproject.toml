@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toomanyports"
+version = "0.1.1"
+authors = [
+  {name="genderlesspit"}
+]
+description = "Port allocation cleanup usage reporting"
+readme = "README.md"
+license = {text="MIT"}
+requires-python = ">=3.7"
+dependencies = [
+  "psutil",
+  "loguru"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License"
+]
